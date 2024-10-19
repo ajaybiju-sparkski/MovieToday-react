@@ -6,7 +6,7 @@ const Moviereviews = () => {
   const [movieData, setMovieData] = useState(null);
   const [error, setError] = useState(null);
 
-  const API_KEY = "6f25283a";
+  const API_KEY = "/*api key here*/";
 
   const fetchMovieData = async (title) => {
     try {
